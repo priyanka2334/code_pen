@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.getstart{
+    background-color: blue;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar ul{
+    font-size: 40px;
+}
+ul{
+    display: flex;
+}
+.gettext{
+    font-size: 60px;
+}
+/* .getbox1{
+    height: 40vh;
+    width: 50%;
+    border: 2px solid black;
+} */
+.getstarttext{
+    font-size: 20px;
+}
+

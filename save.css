@@ -1,0 +1,79 @@
+button{
+    height: 40px;
+    width: 350px;
+    border-radius: 8px;
+    background-color: rgb(128, 237, 128);
+    font-size: 20px;
+}
+button:hover{
+    background-color: green;
+    color: white; 
+}
+input{
+    height: 40px;
+    width: 350px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.heading{
+   background-color: white;
+   border: 2px solid black;
+   height: 90vh;
+   width: 35%;
+   margin-left: 450px;
+   border-top: 4px solid greenyellow;
+    
+}
+body{
+    background-color: rgb(102, 100, 100);
+}
+.iconbook1{
+    margin-top: 50px;
+    padding-left: 100px;
+}
+.heading1{
+    text-align: center;
+}
+.Forget{
+    padding-top: 20px;
+    padding-left: 120px;
+    color: blue;
+}
+.savetext{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.reset{
+    background-color: rgb(43, 42, 42);
+
+}
+span{
+    color: blue;
+}
+.singup{
+    padding-left: 100px;
+    padding-top: 40px;
+    
+}
+.resetpassword{
+    border: 2px solid rgb(46, 43, 43);
+    height: 20vh;
+    width: 70%;
+    padding-left: 30px;
+    margin-left: 60px;
+    margin-top: 10px;
+    background-color: rgb(73, 70, 70);
+    color: white;
+}
+.reset{
+    background-color: rgb(78, 77, 77);
+}
+.reset:hover{
+    background-color: rgb(139, 131, 131);
+}
+.resetpassword .text{
+    margin-bottom:0px;
+}
+.reset{
+    margin-top:0px;
+}

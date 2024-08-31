@@ -1,0 +1,313 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.firstsection {
+    position: relative;
+    background: 
+        linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.3)),
+        linear-gradient(to left, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)),
+        url('./images/img10.jpg');
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 600px;
+    z-index: 1;
+}
+.headerdiv{
+    position:absolute;
+    top:25%;
+    right:60px;
+    width:50%;
+}
+.headerdiv p:nth-child(1){
+    font-size:4rem;
+}
+.headerdiv p:nth-child(2){
+    font-size:1.5rem;
+}
+#probtn{
+    padding:10px;
+    font-size:2rem;
+    background-color:rgb(189, 189, 6);
+    color:black;
+    margin-left:5px;
+    border-radius:5px;
+}
+.headerdiv button{
+    padding:1rem;
+    background-color:rgb(189, 189, 6);
+    border-radius:5px;
+    border:none;
+    font-size:15px;
+}
+.headerdiv button:hover{
+    color:#fff;
+}
+.threediv{
+    position:relative;
+    display:flex;
+    justify-content:center;
+    height:200px;
+    width:100%;
+}
+.absolutediv{
+    position:absolute;
+    bottom:20%;
+    display:flex;
+    justify-content:space-between;
+    height:220px;
+    width:85%;
+    background-color:rgb(56, 54, 54);
+    border:none;
+    border-radius:5px;
+    z-index:6;
+}
+#threediv{
+    height:300px;
+}
+.myfirstdiv, .myseconddiv, .mythirddiv{
+    height:220px;
+    width:33%;
+    z-index:5;
+    padding:1.7rem;
+    border-radius:5px;
+    background-color:#626264;
+}
+.myfirstdiv h3, .myseconddiv h3, .mythirddiv h3{
+    font-size:2rem;
+}
+.myfirstdiv p, .myseconddiv p, .mythirddiv p{
+    font-size:1.3rem;
+    margin-top:1rem;
+}
+.mysecondsection{
+    width:100%;
+    padding:3rem 7rem;
+    display:flex;
+    justify-content:space-around;
+}
+.childiv1 , .childdiv2{
+    width:45%;
+    margin:4px;
+}
+.childiv1 h1{
+    font-size:1.7rem;
+    color:rgb(48, 48, 178);
+}
+.childdiv2 img{
+    width:100%;
+    height:380px;
+    border:2px solid rgb(44, 43, 43);
+}
+.childdiv2 p{
+    margin:0.4rem 0;
+    color:rgb(58, 117, 140);
+    font-size:19px;
+    font-style:italic;
+}
+.childiv1 h2{
+    font-size:2.7rem;
+    margin:1.4rem 0px;
+    font-weight:bold;
+    font-family:var(--cp-font-family-header-alt);
+}
+.childiv1 p{
+    font-size:22px;
+    margin:1.2rem 0;
+}
+.childiv1 button{
+    font-size:15px;
+    padding:0.9rem;
+    border:none;
+    border-radius:4px;
+    color:#fff;
+    background-color:#6b7070;
+}
+.childiv1 ul {
+    padding-left: 45px; 
+}
+.childiv1 ul li {
+    font-size: 22px;
+    color: #a9a2a2;
+    margin: 1rem 0px;
+    list-style-type: none;
+    position: relative;
+}
+.childiv1 ul li::before {
+    content: "";
+    width: 35px;
+    height: 3px;
+    border-radius: 2px;
+    position: absolute;
+    top: calc(10% - 1px);
+    left: -45px;
+    background-color:skyblue;
+}
+.childiv1 ul li span{
+    font-size:24px;
+    font-weight:bold;
+    color:#fff;
+}
+.mythirdsection{
+    width:100%;
+    height:350px;
+    background-color:#514e4e;
+    padding:4rem 8rem;
+}
+.mythirdsection h1{
+    font-size:1.9rem;
+    font-weight:bold;
+    margin:1rem 0;
+}
+.mythirdsection h2{
+    font-size:1.4rem;
+    font-weight:bold;
+    margin:1rem 0;
+    color:#bfbaba;
+}
+.mythirdsection button{
+    width:100px;
+    height:45px;
+    background-color:rgb(223, 223, 31);
+    font-size:17px;
+    border:none;
+    margin:1rem 0;
+    border-radius:5px;
+}
+.childdiv2 h2{
+    font-size:1.4rem;
+    color:rgb(44, 101, 180);
+}
+#childdiv2{
+    padding:2rem;
+}
+.childiv1 img{
+    width:100%;
+}
+.childdiv2 h3{
+    font-size:2.5rem;
+    font-weight:bold;
+    margin:0.9rem 0;
+}
+#childdiv2 p{
+    font-size:1.3rem;
+    color:#aca5a5;
+    font-style:normal;
+}
+.codeimgdiv{
+    text-align:center;
+    width:100%;
+}
+.codeimgdiv .codeimg{
+    width:50%;
+    height:270px;
+    margin:auto;
+}
+.centersection{
+    width:100%;
+    text-align:center;
+}
+.centersection h1{
+    font-size:1.9rem;
+    color:rgb(38, 119, 185);
+    margin:5px;
+}
+.centersection h2{
+    font-size:2.6rem;
+    margin:2px;
+}
+.centersection p{
+    font-size:1.4rem;
+    color:#c1bcbc;
+    margin-bottom:4rem;
+}
+.childiv1 h4, .childdiv2 h1{
+    font-size:1.8rem;
+}
+.childdiv2 p{
+    font-size:1.4rem;
+    color:#c1baba;
+}
+.childiv1 p{
+    font-size:1.4rem;
+    color:#c1baba;
+}
+.childdiv2 button, .headdiv1 button{
+    font-size:15px;
+    padding:0.6rem;
+    border:none;
+    border-radius:4px;
+    color:#fff;
+    background-color:#6b7070;
+}
+.myheadersection{
+    width:58%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.myheadersection .headdiv1, .headdiv2{
+    width:37%;
+}
+.headdiv1 h1{
+    font-size:2.3rem;
+    margin-bottom:0.4rem;
+}
+.lastonediv{
+    width:37%;
+    display:flex;
+    justify-content:space-between;
+    color:#fff;
+}
+.onediv{
+    text-align:center;
+    color:#fff;
+    height:90px;
+    width:50%;
+    margin:2px;
+    border:none;
+    border-radius:5px;
+}
+.onediv i{
+    color:#0c0c0c;
+    font-size:1.9rem;
+    margin:0.6rem;
+}
+.onediv div{
+    color:#0b0b0b;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.onediv:nth-child(1){
+    background-color:rgb(53, 188, 53);
+}
+.onediv:nth-child(2){
+    background-color:rgb(130, 134, 130);
+}
+.lastimg{
+    width:100%;
+    height:900px;
+    padding:2rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.lastimg img{
+    width:60%;
+    height:800px;
+}
+#hiddenimg2{
+    display:none;
+}
+.childiv1 button a{
+    text-decoration: none;
+    color:#fff;
+}
+
+
+

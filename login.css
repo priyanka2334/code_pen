@@ -1,0 +1,324 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+
+.background{
+    background-image: url('https://cpwebassets.codepen.io/assets/logos/codepen-logo-pattern-b477875ac66ffc21e4485a989358c220fac283caf17e602346a50d4250970254.png');
+    height: 75%;
+    
+} 
+.verticlebar{
+    height:100vh;
+    width:180px;
+    width:11%;
+    position:fixed;
+    background-color:rgb(48, 48, 48);
+    color:#bdbaba;
+}
+.verticlebar img{
+    width:90%;
+    margin:16px auto;
+    margin-left:5px;
+}
+.verticlebar P{
+    font-size:11px;
+    word-spacing:5px;
+    margin-left:5px;
+}
+.verticlebar #startbtn{
+    /* padding:24px; */
+    display:inline-block;
+    width: 80%;
+    height:60px;
+    margin:10px auto;
+    margin-left:15px;
+     background-color:black; 
+    color:#fff;
+    font-size:15px;
+    border-style: solid;
+    border-width: 3px;
+    border-image: linear-gradient(45deg, rgb(81, 214, 110), yellow, rgb(119, 82, 119),rgb(68, 110, 126))1;
+}
+.verticlebar a{
+    text-decoration: none;
+    color:#fff;
+}
+.verticlebar ul li{
+    list-style-type:none;
+    font-size:20px;
+    margin:17px;
+    margin-left:20px;
+    color:#fff;
+}
+.verticlebar ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+.verticlebar li:nth-child(4) button{
+    background-color:yellow;
+    width:40px;
+    color:black;
+    border-radius:5px;
+    margin-top:17px;
+}
+.verticlebar .bottom-div{
+    height:300px;
+    position:relative;
+    bottom:0px;
+    left:0;
+}
+.bottom-div .imgdiv{
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    width:80%;
+    height:100px;
+}
+.bottom-div .imgdiv img{
+    position:relative;
+    width:100%;
+    height:90%;
+}
+.bottom-div .imgdiv span{
+    position:absolute;
+    top:22px;
+    left:10px;
+    color:#fff;
+    padding:1px;
+    border-radius:5px;
+     background-color:black;
+}
+.verticlebar .foot{
+    font-size:15px;
+    margin-left:10px;
+    word-spacing: none;
+
+}
+.container{
+     /* width:100%; */
+     width:90%;
+     height:100vh;
+    background-color:rgb(24, 23, 23);
+    color:#fff;
+    float:right;
+}
+.searchbar{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:100%;
+    height:60px;
+    color:#0c0b0b;
+    background-color:rgb(24, 23, 23); 
+}
+.searchdiv{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    width:86%;
+    height:50px;
+    background-color:gray;
+}
+.searchdiv input{
+    width:95%;
+    height:45px;
+    font-size:22px;
+    border:none;
+    outline:none;
+     color:#fff; 
+    background-color:gray;
+}
+input[type="text"]:focus {
+    outline: none;
+}
+.searchdiv i{
+    font-size:25px;
+    margin:5px;
+}
+.searchdiv .loginbtn{
+    width:20%;
+    background-color:gray;
+}
+.loginbtn button{
+    width:90px;
+    border-radius:6px;
+}
+.loginbtn button a{
+    text-decoration: none;
+    color:#fff;
+}
+.loginbtn{
+    padding: auto;
+}
+.loginbtn button:nth-child(1){
+    background-color:rgb(114, 211, 114);
+    color:black;
+}
+.wraper1{
+    height:530px;
+    border:2px solid pink;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    margin-top:10px;
+}
+.wraper1 div{
+    width:45%;
+    height:500px;
+    margin:20px;
+    border:2px solid red;
+}
+.wraper1 div img{
+    width:50px;
+    height:50px;
+}
+.firstdiv{
+    display:flex;
+    padding:20px;
+}
+.myh1{
+    font-size:45px;
+    margin-left:10px; 
+}
+.a{
+    color: aquamarine;
+}
+
+
+
+
+ .mainbox{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 4%;
+   
+    
+}
+.mainbox1{
+    border:3px solid rgb(108, 105, 105);;
+    display: flex;
+    justify-content: space-between;
+    width: 270px;
+    height: 48px;
+    background-color: rgb(108, 105, 105);
+    border-radius: 5px;
+    margin-top: 10px;
+    
+    
+
+}
+.mainbox1:hover{
+    background-color: black;
+    cursor: pointer;
+    
+}
+.mainbox1 img{
+    height: 40px;
+    width: 40px;
+
+} 
+.text{
+    padding-top: 10px;
+    padding-right: 45px;
+    
+
+}
+.loginimg{
+    padding-left: 400px;
+    padding-top: 80px;
+
+}
+.loginimg img{
+    width: 180px;
+    height: 30px;
+}
+.loginbox{
+    padding-top: 100px;
+ }
+.login{
+    font-size: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 400px;
+    /* padding-top: 10px; */
+    padding-bottom:40px;
+}
+input{
+    height: 55px;
+    width: 350px;
+    border-radius: 8px;
+}
+button{
+    height: 55px;
+    width: 350px;
+    border-radius: 8px;
+    background-color: rgb(128, 237, 128);
+    margin-top: 30px;
+    font-size: 20px;
+}
+button:hover{
+    background-color: green;
+    color: white; 
+}
+ .OR{
+    height: 70px;
+    width: 70px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.line{
+    width: 0px;
+    height: 110px;
+    border: 2px solid white; 
+    margin-left: 30px;
+}
+/* .iconbook{
+    margin: 2% 0% 2% 5%;
+}  */
+.Forget{
+    padding-top: 20px;
+    padding-left: 120px;
+    color: blue;
+
+}
+span{
+    color: blue;
+} 
+.sign{
+    padding-left: 42%;
+    padding-top: 30px;
+}
+footer {
+    /* position: fixed; Add fixed positioning */
+    bottom: 0; /* Align to the bottom of the viewport */
+    background-color: #363535;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 10%;
+}
+
+.img1{
+    height: 70px;
+    width: 150px;
+}
+.code{
+    font-size: 15px;
+    width: 100%;
+    margin: 3% 2%;
+}
+.pen{
+    display: flex;
+    gap: 2px;
+}
+.code1{
+    font-size: 14px;
+}
+.sign a{
+    text-decoration: none;
+}

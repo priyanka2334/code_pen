@@ -1,0 +1,191 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.sectionbar{
+    background-image: url("./images/blogback.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no repeat;
+    background-size: cover;
+    
+}
+.nav{
+    display: flex;
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+    background-color: rgb(65, 62, 62);
+    color: whitesmoke;
+    gap: 60%;
+}
+.navli{
+    display: flex;
+    list-style-type: none;
+    gap: 10%;
+}
+li img{
+    height:2rem;
+    gap: 2px;
+}
+.container{
+    width:100%;
+    padding-left:10px;
+    background-color:rgb(24, 23, 23);
+    color:#fff;
+    float:right;
+}
+.searchbar{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:100%;
+    height:60px;
+    color:#bab3b3;
+    background-color:rgb(24, 23, 23);
+}
+.searchdiv{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    width:100%;
+    height:50px;
+    color:#fcfcfc;
+    background-color:rgb(49, 47, 47);
+}
+.searchdiv input{
+    width:95%;
+    height:45px;
+    font-size:22px;
+    border:none;
+    outline:none;
+    color:#fcfcfc;
+    background-color:rgb(52, 50, 50);
+}
+input[type="text"]:focus {
+    outline: none;
+}
+.searchdiv i{
+    font-size:25px;
+    margin:10px;
+}
+
+.bloghead{
+    font-size: 70px;
+    color: white;
+    margin: 20px;
+}
+.bloghead1{
+    font-size: 100px;
+    color: white;
+    margin: 20px;
+}
+.blogpara{
+    font-size: 25px;
+    color: white;
+    word-spacing: 10px;
+}
+.blogdiv{
+    display: flex;
+    height: 60%;
+    width: 100%;
+}
+.blogimg{
+    display: flex;
+    /* gap: 25px; */
+    margin-bottom: 2%;
+    gap: 20px;
+}
+.textblog{
+    /* border: 2px solid red; */
+    height: 30%;
+    width: 45%;
+    padding: 4%;
+    border-radius: 10px;
+    margin:2% 8% 1% 15% ;
+    background-color: #434858;
+}
+.bigblog{
+    margin:2% 15% ;
+    width: 40%;
+}
+.read{
+    padding: 20px;
+    background-color: black;
+    color: white;
+    margin: 10px;
+    border-radius: 7px;
+}
+.chrishead{
+    color: blue;
+    font-size: 30px;
+}
+.box{
+    height: 20vh;
+    width: 100%;
+   /* margin-top: 20px;
+   margin-right: 200px; */
+}
+.box pre{
+    font-size: 20px;
+    color: rgb(179, 176, 176);
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.box p{
+    color: rgb(207, 201, 201);
+    padding-top: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 40px;
+    padding-left: 380px;
+    padding-right: 250px;
+    background-color: rgb(39, 38, 38);
+    margin-top: 40px;
+    padding-bottom: 20px;
+
+}
+.footertext{
+    display: flex;
+    gap:10px;
+    
+}
+.footerimg img{
+    height: 30px;
+    width: 30px;
+}
+.footerimg{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+.footertext2{
+    color: rgb(100, 96, 96);
+    padding-top: 5px;
+}
+.footertext1{
+    padding-top: 10px;
+}
+.footertext4{
+   text-align: right;
+}
+.olderpost button{
+    height: 60px;
+    width: 140px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+    margin-left: 300px;
+}
+.textlast:hover{
+    color: white;
+    
+}
+.textlast{
+    padding-left: 8px;
+}

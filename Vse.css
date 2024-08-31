@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width:89%;
+    padding-left:10px;
+    background-color:rgb(24, 23, 23);
+    color:#fff;
+    float:right;
+}
+.searchbar{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:100%;
+    height:60px;
+    color:#bab3b3;
+    background-color:rgb(24, 23, 23);
+}
+.searchdiv{
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+    width:86%;
+    height:50px;
+    color:#fcfcfc;
+    background-color:rgb(49, 47, 47);
+}
+.searchdiv input{
+    width:95%;
+    height:45px;
+    font-size:22px;
+    border:none;
+    outline:none;
+    color:#fcfcfc;
+    background-color:rgb(52, 50, 50);
+}
+input[type="text"]:focus {
+    outline: none;
+}
+.searchdiv i{
+    font-size:25px;
+    margin:10px;
+}
+.searchdiv .loginbtn{
+    width:20%;
+    background-color:rgb(58, 53, 53);
+}
+.loginbtn button{
+    padding:15px;
+    width:90px;
+    color:#fff;
+    border-radius:6px;
+}
+.loginbtn button a{
+    color:#fff;
+    font-size:1rem;
+    text-decoration:none;
+}
+.loginbtn button:nth-child(1){
+    background-color:rgb(114, 211, 114);
+    color:black;
+}
+.loginbtn button:nth-child(1):hover{
+    background-color:rgb(85, 213, 85);
+    color:#fff;
+}
+.loginbtn button:nth-child(2){
+    background-color:#726b6b;
+}
+.loginbtn button:nth-child(2):hover{
+    background-color:#a8a1a1;
+}
+.verticlebar{
+    height:100vh;
+    width:11%;
+    position:fixed;
+    background-color:rgb(48, 48, 48);
+    color:#bdbaba;
+}
+.verticlebar img{
+    width:90%;
+    margin:16px auto;
+    margin-left:5px;
+}
+.verticlebar P{
+    font-size:11px;
+    word-spacing:5px;
+    /* margin-left:5px; */
+}
+.verticlebar #startbtn{
+    display:inline-block;
+    width: 80%;
+    height:60px;
+    margin:10px auto;
+    margin-left:15px;
+    background-color:black;
+    color:#fff;
+    font-size:15px;
+    border-style: solid;
+    border-width: 3px;
+    border-image: linear-gradient(45deg, rgb(81, 214, 110), yellow, rgb(119, 82, 119),rgb(68, 110, 126))1;
+}
+#startbtn a{
+    font-size:1rem;
+    color:#fff;
+    text-decoration:none;
+}
+.verticlebar ul{
+    width:100%;
+}
+.verticlebar ul li{
+    width:100%;
+    list-style-type:none;
+    font-size:20px;
+    padding:0.5rem 1rem;
+    color:#fff;
+}
+.verticlebar ul li a{
+    font-size:20px;
+    color:#fff;
+    text-decoration:none;
+}
+.verticlebar ul li:hover{
+    background-color:#1e1d1d;
+}
+.verticlebar li:nth-child(4) button{
+    background-color:yellow;
+    width:40px;
+    color:black;
+    border-radius:5px;
+    margin-top:17px;
+}
+.verticlebar .bottom-div{
+    height:300px;
+    position:relative;
+    bottom:0px;
+    left:0;
+}
+.bottom-div .imgdiv{
+    position:absolute;
+    bottom:10px;
+    left:10px;
+    width:80%;
+    height:100px;
+}
+.bottom-div .imgdiv img{
+    position:relative;
+    width:100%;
+    height:90%;
+}
+.bottom-div .imgdiv span{
+    position:absolute;
+    top:22px;
+    left:10px;
+    color:#fff;
+    padding:1px;
+    border-radius:5px;
+    background-color:black;
+}
+.verticlebar .foot{
+    font-size:15px;
+    margin-left:10px;
+    word-spacing: none;
+
+}
+.vue{
+    background-color: black;
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    
+
+}
+.vuetext{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.Vueimg img{
+    height: 20vh;
+    width: 80%;
+    padding-left: 30px; 
+}
+.Vueimg{
+     background-color: rgb(104, 99, 99);
+    
+}
+.topictext{
+    color: blue;
+}
+.Vue1{
+    font-size: 50px;
+}
+.vuetext{
+    color: rgb(112, 108, 108);
+}
+.heading button{
+    height: 40px;
+    width: 18%;
+    padding-left: 40px;
+    padding-right: 50px;
+    text-align: center;
+}
+.Vueboxtext{
+    display: flex;
+     gap: 30px; 
+    margin-top: 30px;
+    margin-left: 40px;
+}
+.Vuebox1{
+    height: 30vh;
+    width: 30%;
+    background-color: white;
+}
+.Vuebox2{
+    height: 30vh;
+    width: 30%;
+    background-color: rgb(166, 166, 231);
+}
+.Vuebox3{
+    height: 30vh;
+    width: 30%;
+    background-color: rgb(50, 50, 53);
+}
+.Vuebox5{
+    height: 30vh;
+    width: 30%;
+    background-color: rgb(97, 94, 94);
+}
+.link{
+    color: blue;
+    padding-top: 40px;
+
+}
+.outsidebutton button{
+    height: 50px;
+    width: 220px;
+    border-radius: 10px;
+    background-color: #726b6b;
+}
+.outsidebutton1 button{
+    height: 50px;
+    width: 220px;
+    border-radius: 10px;
+    margin-top: 40px;
+    background-color: #726b6b;
+}
+.outsidebutton1 button:hover{
+    background-color: #bdbaba;
+}
+.outsidebutton button:hover{
+    background-color: #bdbaba;
+}
+
+.link:hover{
+    color: white;
+}
+.outsidebox{
+    height: 40vh;
+    width: 30%;
+}
+.outsidetext{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.Vueboxtext1{
+    display: flex;
+    gap: 30px;
+    margin-left: 40px;
+}
+.insidebox{
+    height: 8vh;
+    width: 23%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    border: 2px solid black;
+    color: white;
+    margin-left: 170px;
+    margin-top:100px ;
+    background-color: black;
+}
+.insidetext{
+    font-size: 12px;
+}
+.insidetext1{
+    font-size: 10px;
+}
+.insidetext2{
+    font-size: 15px;
+    text-align: center;
+}
+.insidetext4 button{
+    background-color: green;
+    text-align: center;
+}
+.insidetext3{
+    font-size: 8px;
+    text-align: center;
+}
+.insidebox1{
+    height: 10vh;
+    width: 25%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: white;
+    color: black;
+    margin-left: 170px;
+    margin-top:100px ;
+    border-radius: 5px;
+}
+.insidetext4{
+    text-align: center;
+}
+.insidebox2{
+    height: 20vh;
+    width: 40%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: black;
+    margin-left: 150px;
+    margin-top:30px ;
+}
+.insideimg1 img{
+    height: 8vh;
+    width: 90%;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.insideimg{
+    display: flex;
+}
+.insidebox3{
+    height: 23vh;
+    width: 50%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    color: black;
+    margin-left: 100px;
+    margin-top:40px ;
+}
+.insideimg2 img{
+    height: 5vh;
+    width: 100%;
+   
+    border-radius: 5px;
+}
+.insideimg2{
+    display: flex;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 40px;
+    padding-left: 320px;
+    padding-right: 250px;
+    background-color: rgb(39, 38, 38);
+    margin-top: 40px;
+    padding-bottom: 20px;
+
+}
+.footertext{
+    display: flex;
+    gap:10px;
+    
+}
+.footerimg img{
+    height: 30px;
+    width: 30px;
+}
+.footerimg{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+.footertext2{
+    color: rgb(100, 96, 96);
+    padding-top: 10px;
+}
+.footertext1{
+    padding-top: 10px;
+}
+.footertext4{
+   text-align: right;
+}
+.searchreact{
+    color: rgb(153, 149, 149);
+}
+.vuenav{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.insideimg1{
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
+.insideimg2{
+    height: 6vh;
+    width: 40%;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: white;
+    border-radius: 5px;
+    border: 4px solid white;
+}
+.insideimg4{
+    display: flex;
+}
+.Topic{
+    display: flex;
+    gap: 100vh;
+}
+.Topic button{
+    background-color: rgb(108, 172, 13);
+    height: 40px;
+    width: 200px;
+}
+.heading .button2{
+    height: 40px;
+    width: 70px;
+}
+.Vuenav2{
+    color: #726b6b;
+}
+.boxbutton{
+    margin-left: 60px;
+}
+.boxbutton1{
+    background-color: green;
+    color: white;
+}

@@ -1,0 +1,346 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Reactpage{
+    display: flex;
+    color: white;
+    /* margin-left: 40px;
+    margin-top: 40px; */
+    background-color: black;
+    
+}
+body{
+    background-color: rgb(75, 72, 72);
+}
+.reactbox{
+    display: flex;
+    color: white;
+    padding-top: 40px;
+    padding-left: 40px;
+    color: black;
+}
+.reactimg{
+    height: 180px;
+    width: 180px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    margin-left: 30px;
+    background-color: rgb(58, 56, 56);
+}
+.reacttext{
+    color: blue;
+    padding-top: 40px;
+    font-size: 20px;
+}
+.reactreact{
+    font-size: 60px;
+}
+.reacttext2{
+    color: rgb(167, 158, 158);
+}
+.reactmain{
+    padding-left: 50px;
+}
+.reactbox12{
+    height: 30vh;
+    width: 25vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+}
+.insidebox{
+    height: 7vh;
+    width: 9vw;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.reactlink{
+    color: blue;
+}
+.template button{
+    height: 50px;
+    width: 250px;
+    border-radius: 9px;
+}
+.reacttext4{
+    height: 30vh;
+    width: 25vw;
+    margin-left: 40px;
+}
+.reactlink:hover{
+    color: white;
+}
+.reacttext5{
+    color: white;
+}
+.insidebox1{
+    height: 10vh;
+    width: 9vw;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    
+}
+.insidetext1{
+    font-size: 10px;
+}
+.heading{
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.outsidetext{
+    padding-bottom: 30px;
+}
+.outsidetext1{
+    padding-bottom: 30px;
+}
+.insidetext6{
+    font-size: 15px;
+}
+.insidetext7{
+    font-size: 10px;
+}
+.insidebox2{
+    height: 10vh;
+    width: 9vw;
+    border-radius: 5px;
+    background-color: beige;
+    
+}
+.reactimg img{
+    padding-top: 30px;
+    padding-left: 15px;
+    height: 15vh;
+    width: 8vw;
+}
+.insidetextpage{
+    font-size: 10px;
+}
+.insidetext123{
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.outertext{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.outertext1{
+    padding-bottom: 10px;
+}
+.textcolour{
+    color: blue;
+}
+.insidebox4{
+    height: 10vh;
+    width: 9vw;
+    border-radius: 5px;
+    background-color: beige;
+}
+.iconimg2 h2{
+    padding-bottom: 15px;
+    color: white;
+}
+.outsidetextlast{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.insidetextlast1{
+    font-size: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.insidetextlast{
+    font-size: 15px;
+}
+.insidetextlast2{
+    font-size: 10px;
+}
+.reactboxthree{
+    height: 30vh;
+    width: 25vw;
+    background-color: white;
+    
+
+}
+.insideboxthree1{
+    height: 4.5vh;
+    width: 9vw;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 30px;
+
+}
+.insideboxthree2{
+    height: 7vh;
+    width: 9vw;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 10px;
+
+}
+.insideboxthree3{
+    height: 7vh;
+    width: 9vw;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 10px;
+
+}
+.outsidetext6{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.reactboxs{
+    height: 30vh;
+    width: 25vw;
+    background-color: white;
+    
+
+}
+.insideboxbox1{
+    height: 7vh;
+    width: 9vw;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 10px;
+    margin-top: 60px;
+
+}
+.insideboxtwo{
+    font-size: 15px;
+}
+.insideboxbox{
+    height: 7vh;
+    width: 9vw;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 10px;
+
+}
+.reactboxbox5{
+    height: 30vh;
+    width: 25vw;
+    background-color: white
+   
+}
+.insideboxboxtwo{
+    font-size: 10px;
+}
+.insideboxboxtwo2{
+    font-size: 10px;
+}
+.insideboxblack{
+    background-color: black;
+    color: white;
+    height: 7vh;
+    width: 9vw;
+    margin-left: 150px;
+    margin-top: 20px;
+}
+.insideboxwhite{
+    background-color: white;
+    color: rgb(3, 2, 2);
+    height: 7vh;
+    width: 9vw;
+    margin-left: 150px;
+    margin-top: 60px;
+    border: 1px solid rgb(128, 126, 126);
+    border-radius: 5px;
+}
+.outsideboxseven{
+    margin-top: 30px;
+   padding-bottom: 30px;
+}
+.template button{
+    background-color: rgb(63, 62, 62);
+    margin-top: 20px;
+    color: white;
+}
+.template button:hover{
+    background-color: rgb(168, 160, 160);
+}
+.Topline{
+    height: 1px;
+    width: 100%;
+    background-color: green;
+}
+.reactbutton button{
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+}
+.reacttexttext{
+    display: flex;
+    gap: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 40px;
+    padding-left: 320px;
+    padding-right: 250px;
+    background-color: rgb(39, 38, 38);
+    margin-top: 40px;
+    padding-bottom: 20px;
+
+}
+.footertext{
+    display: flex;
+    gap:10px;
+    
+}
+.footerimg img{
+    height: 30px;
+    width: 30px;
+}
+.footerimg{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: right;
+}
+.footertext2{
+    color: rgb(100, 96, 96);
+    padding-top: 10px;
+}
+.footertext1{
+    padding-top: 10px;
+}
+.footertext4{
+   text-align: right;
+}
+.searchreact{
+    color: rgb(153, 149, 149);
+}
+.nextbutton button{
+    height: 50px;
+    width: 70px;
+    background-color: rgb(59, 57, 57);
+    text-align: center;
+    border-radius: 9px;
+}
+.nextbutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 90px;
+}
+.nextbutton button:hover{
+    background-color: rgb(104, 102, 102);
+}

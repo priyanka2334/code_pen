@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>start coding</title>
+    <link rel="icon" type="image/x-icon" href="https://www.svgrepo.com/show/488549/codepen.svg">
+    <link rel="stylesheet" href="codepen.css">
+    <link rel="stylesheet" href="startcoding.css">
+    <script src="https://kit.fontawesome.com/20945cdd74.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav>
+       <div class="logo">
+          <div class="logo1">
+            <img src="./images/codepen4.png">
+          </div>
+          <div class="heading">
+            <span>Untitled <i class="fa-solid fa-pencil"></i></span>
+            <p>Captain Anonymous</p>
+          </div>
+        </div>
+       <div class="navitem">
+        <ul>
+            <li><i class="fa-solid fa-cloud"></i><a href="save.html"> Save</a></li>
+            <li><i class="fa-solid fa-gear"></i><a href="settings.html">Settings</a> </li>
+            <li id="signup"><a href="signUp.html">SignUp</a>  </li>
+            <li id="login"><a href="login.html">Login</a></li>
+        </ul>
+       </div>
+    </nav>
+
+    <section class="coding-div">
+      <div class="htmldiv">
+        <div class="setting">
+          <div class="htmlicon">
+            <i class="fa-solid fa-code" id="htmlicon"></i>
+            <h1>Html</h1>
+          </div>
+          <div>
+           <a id="settingicon" href="settings.html"><i class="fa-solid fa-gear"></i></a>
+            <i class="fa-solid fa-arrow-down" class="display-list" onclick="dispalyDropDown('htmllist')"></i>
+          </div>
+        </div>
+        <!-- dropdown list -->
+        <ul class="htmllist">
+          <li>Format HTML</li>
+          <li>Analyze HTML</li>
+          <li>Maximize HTML Editor</li>
+          <li>Minimize HTML Editor</li>
+          <li>Fold All</li>
+          <li>Unfold All</li>
+        </ul>
+
+
+        <div class="textarea">
+          <h3>1</h3>
+        <textarea>
+        </textarea>
+        </div>
+      </div>
+
+      <div class="htmldiv">
+        <div class="setting">
+          <div class="htmlicon">
+            <i class="fa-solid fa-star-of-life" id="cssicon"></i>
+            <h1>CSS</h1>
+          </div>
+          <div>
+            <a id="settingicon" href="settings.html"><i class="fa-solid fa-gear"></i></a>
+            <i class="fa-solid fa-arrow-down" class="display-list" onclick="dispalyDropDown('csslist')"></i>
+          </div>
+        </div>
+        <ul class="htmllist" id="csslist">
+          <li>Format CSS</li>
+          <li>Analyze CSS</li>
+          <li>Maximize CSS Editor</li>
+          <li>Minimize CSS Editor</li>
+          <li>Fold All</li>
+          <li>Unfold All</li>
+        </ul>
+        <div class="textarea">
+          <h3>1</h3>
+        <textarea>
+        </textarea>
+        </div>
+      </div>
+
+      <div class="htmldiv">
+        <div class="setting">
+          <div class="htmlicon">
+            <img src="./images/jsicon.png" id="jsicon">
+            <h1>JS</h1>
+          </div>
+          <div>
+           <a id="settingicon" href="settings.html"> <i class="fa-solid fa-gear"></i></a>
+            <i class="fa-solid fa-arrow-down" class="display-list" onclick="dispalyDropDown('jslist')"></i>
+          </div>
+        </div>
+        <ul class="htmllist" id="jslist">
+          <li>Format JavaScript</li>
+          <li>Analyze JavaScript</li>
+          <li>Maximize JavaScript Editor</li>
+          <li>Minimize HTJavaScriptL Editor</li>
+          <li>Fold All</li>
+          <li>Unfold All</li>
+        </ul>
+        <div class="textarea">
+          <h3>1</h3>
+        <textarea>
+        </textarea>
+        </div>
+        
+      </div>
+    </section>
+    <div class="remainingarea">
+
+    </div>
+    <div class="outputdiv"></div>
+    <section class="consolediv">
+      <div>
+        <h3>console</h3>
+      </div>
+      <div>
+        <i class="fa-solid fa-xmark" onclick="displayconsole(false)"></i>
+        <span>clear</span>
+      </div>
+    </section>
+
+
+<!-- shortcut icon popup box -->
+<section class="shortcuticondiv">
+  <div class="maindiv">
+    <div class="colum">
+      <h2>Editor Commands</h2>
+      <ul>
+        <li>
+          <span>Ctrl</span>
+          <span>Space</span>
+          <p>Autocomplete</p>
+        </li>
+        <li>
+          <span>Ctrl</span>
+          <span>F</span>
+          <p>Find</p>
+        </li>
+        <li>
+          <span>Ctrl</span>
+          <span>G</span>
+          <p>Find Next</p>
+        </li>
+        <li>
+          <span>Ctrl</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
+          <span>G</span>
+          <p>Find Previous</p>
+        </li>
+        <li>
+          <span>Ctrl</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
+          <span>F</span>
+          <p>Find Previous</p>
+        </li>
+        <li>
+          <span>Ctrl</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
+          <span>[</span>
+          <p>Indent Code Right</p>
+        </li>
+        <li>
+          <span>Ctrl</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
+          <span>]</span>
+          <p>Indent Code Left</p>
+        </li>
+        <li>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
+          <span>Tab</span>
+          <p>Auto Indent Code</p>
+        </li>
+        <li>
+          <span>Ctrl</span>
+          <span>/</span>
+          <p>Line Comment</p>
+        </li>
+        <li>
+          <span>Ctrl</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
+          <span>/</span>
+          <p>block Comment</p>
+        </li>
+      </ul>
+      <h3>Also see: <strong>Tab triggers</strong></h3>
+    </div>
+    <div class="colum">
+      <h2>Editor Focus</h2>
+      <ul>
+        <li>
+          <span>Ctrl</span>
+          <span>Alt</span>
+          <span>1</span>
+          <p>HTML Editor</p>
+        </li>
+        <li>
+          <span>Ctrl</span>
+          <span>Alt</span>
+          <span>2</span>
+          <p>CSS Editor</p>
+        </li>
+        <li>
+          <span>Ctrl</span>
+          <span>Alt</span>
+          <span>3</span>
+          <p>JS Editor</p>
+        </li>
+        <li>
+          <span>Ctrl</span>
+          <span>Alt</span>
+          <span>4</span>
+          <p>Toggle Console</p>
+        </li>
+        <li>
+          <span>Ctrl</span>
+          <span>Alt</span>
+          <span>0</span>
+          <p>Preview</p>
+        </li>
+        <li>
+          <span>Esc</span>
+          <p>Exit Currently focused editor</p>
+        </li>
+      </ul>
+    </div>
+    <div class="colum">
+      <h2>Misc</h2>
+      <ul>
+        <li>
+          <span>Ctrl</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
+          <span>7</span>
+          <p>Re-run Preview</p>
+        </li>
+        <li>
+          <span>Ctrl</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
+          <span>8</span>
+          <p>Clear All Analyze Errors</p>
+        </li>
+        <li>
+          <span>Ctrl</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
+          <span>9</span>
+          <p>Open This Dialog</p>
+        </li>
+        <li>
+          <span>Ctrl</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
+          <span>0</span>
+          <p>Open Debug View</p>
+        </li>
+      </ul>
+      <h2>HTML Specific</h2>
+      <ul>
+        <li>
+          <span>Ctrl</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
+          <span>A</span>
+          <p>Wrap Width..</p>
+        </li>
+      </ul>
+      <h2>Pen Actions</h2>
+      <ul>
+        <li>
+          <span>Ctrl</span>
+          <span>P</span>
+          <p>Create New Pen</p>
+        </li>
+        <li>
+          <span>Ctrl</span>
+          <span>S</span>
+          <p>Save</p>
+        </li>
+        <li>
+          <span>Ctrl</span>
+          <span><i class="fa-solid fa-arrow-up"></i></span>
+          <span>S</span>
+          <p>Save As Private</p>
+          <button>PRO</button>
+        </li>
+        <li>
+          <span>Ctrl</span>
+          <span>|</span>
+          <p>Info Panel (if owned)</p>
+        </li>
+        
+      </ul>
+    </div>
+  </div>
+
+</section>
+    <section id="footer">
+      <ul>
+        <li onclick="displayconsole(true)">console</li>
+        <li>Asset</li>
+        <li onclick="displayshortcuticon()">shortcuts</li>
+      </ul>
+    </section>
+    
+
+
+    <script>
+      let myboolean=false;
+      function dispalyDropDown(elem){
+        myboolean=!myboolean;
+        let listtype=elem;
+
+        if(listtype=='htmllist'){
+          let el=document.querySelector('.htmllist');
+          el.style.display= myboolean ? 'block':'none';
+        }
+        else if(listtype=='csslist'){
+          let el=document.querySelector('#csslist');
+          el.style.display= myboolean ? 'block':'none';
+        }
+        else if(listtype=='jslist'){
+          let el=document.querySelector('#jslist');
+          el.style.display= myboolean ? 'block':'none';
+        }
+      }
+
+    function displayconsole(elem){
+      let ele=elem;
+      let console=document.querySelector('.consolediv');
+      console.style.display=ele ? 'block':'none';
+    }
+    
+    let mysecondboolean=true;
+    function displayshortcuticon(elem){
+      mysecondboolean=!mysecondboolean;
+      let myelement=document.querySelector('.shortcuticondiv');
+      myelement.style.display=mysecondboolean ? "block":"none";
+    }
+
+    
+    </script>
+</body>
+</html>
